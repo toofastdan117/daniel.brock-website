@@ -1,0 +1,17 @@
+/* Website Homepage CSS Content Styling */
+
+.homepage-container {
+  max-width: 85vw;
+  margin: 0 auto;
+  padding-top: 40px;
+  background-color: rgb(34, 2, 63);
+}
+
+.education-list {
+  list-style-position: inside;
+}
+
+.education-sublist {
+  list-style-position: inside;
+  margin-left: 23px;
+}

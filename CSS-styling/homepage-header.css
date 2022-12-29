@@ -6,6 +6,10 @@
   top: 0;
   left: 0;
   right: 0;
+  z-index: 100;
+  max-width: 85vw;
+  margin: 0 auto;
+  background-color: rgb(30, 30, 30);
   border: 1px solid white;
 }
 
@@ -14,16 +18,13 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  position: relative;
   height: 80px;
-  margin-left: calc(8% - 20px);
-  margin-right: calc(8% - 20px);
 }
 
 .daniel-brock {
   display: inline-block;
   color: white;
-  font-size: 36px;
+  font-size: 40px;
   font-weight: 600;
   text-decoration: none;
   white-space: nowrap;
@@ -84,7 +85,7 @@
   background-color: white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 860px) {
   .hamburger {
     display: block;
   }
