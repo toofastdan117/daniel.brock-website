@@ -7,11 +7,68 @@
 
   <title>About</title>
 
+  <link rel="stylesheet" href="CSS-styling/about.css">
   <link rel="stylesheet" href="CSS-styling/general.css">
+  <link rel="stylesheet" href="CSS-styling/header.css">
+  <link rel="stylesheet" href="CSS-styling/footer.css">
+  <link rel="stylesheet" href="CSS-styling/about-button.css">
+  <script src="javascript-functions/header-hamburger.js"></script>
 
 </head>
 <body>
-  <h1>About</h1>
-  <p>this is just some text to occupy this space</p>
+
+  <!-- Header -->
+  <header class="header-main">
+    <nav class="nav-bar">
+
+      <!-- Homepage Title -->
+      <a class="daniel-brock" href="index.html">
+        Daniel Brock
+      </a>
+
+      <!-- Navigation Buttons -->
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a class="header-buttons homepage-page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="header-buttons about-page" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="header-buttons publications-page" href="publications.html">Publications</a>
+        </li>
+        <li class="nav-item">
+          <a class="header-buttons outreach-page" href="outreach.html">Outreach</a>
+        </li>
+        <li class="nav-item">
+          <a class="header-buttons cv-page" href="cv.html">CV</a>
+        </li>
+        <li class="nav-item">
+          <a class="header-buttons contact-page" href="contact.html">Contact</a>
+        </li>
+      </ul>
+
+      <!-- Hamburger Menu -->
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- Page Image -->
+  <main class="page-image-container">
+    <img class="page-image" src="pictures/nature-pictures/Homepage-Nature-Picture.jpg" alt="Homepage nature picture">
+    <h1 class="page-intro-text">About me</h1>
+  </main>
+
+  
+  <!-- About Contents -->
+  <main class="about-container">
+    <p>This is the about page.</p>
+  </main>
+
 </body>
 </html>
