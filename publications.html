@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="CSS-styling/publications.css">
   <link rel="stylesheet" href="CSS-styling/general.css">
   <link rel="stylesheet" href="CSS-styling/header.css">
+  <link rel="stylesheet" href="CSS-styling/page-image.css">
   <link rel="stylesheet" href="CSS-styling/footer.css">
   <link rel="stylesheet" href="CSS-styling/publications-button.css">
   <script src="javascript-functions/header-hamburger.js"></script>
@@ -60,32 +61,95 @@
 
   <!-- Page Image -->
   <main class="page-image-container">
-    <img class="page-image" src="pictures/nature-pictures/Homepage-Nature-Picture.jpg" alt="Homepage nature picture">
+    <img class="page-image" src="pictures/nature-pictures/Publications-banff-lake-cropped.jpg" alt="Publications nature picture">
     <h1 class="page-intro-text">Publications</h1>
   </main>
 
 
   <!-- Publications Page Contents -->
   <main class="publications-container">
+
+    <!-- Citation Buttons -->
+    <div class="button-container">
+      <h1 class="citations-header">Complete List of Citations</h1>
+      <div class="buttons-div">
+        <a class="citation-button-link" href="https://scholar.google.com/citations?user=ajhFC98AAAAJ&hl=en" target="_blank">
+          <button class="citation-button">Scholar</button>
+        </a>
+        <a class="citation-button-link" href="">
+          <button class="citation-button">Pubmed</button>
+        </a>
+      </div>
+    </div>
+
+
+    <!-- List of Publications per year -->
     <ul class="year-list">
+
       <li><h1 class="year">2022</h1></li>
       <ul class="pub-list">
         <li class="citation">
           Smith AJ, Advani J, <span class="author">Brock DC</span>, 
-          Nellissery J, Gumerson JD, Dong L, Aravind L, Kennedy B, 
-          Swaroop A. GATD3A, a mitochondrial deglycase with evolutionary 
-          origins from gammaproteobacteria, restricts the formation of 
-          advanced glycation end products. BMC Biology, 20 (1), 68. 
-          https://doi.org/10.1186/s12915-022-01267-6
+          Nellissery J, Gumerson J, Dong L, Aravind L, Kennedy B, Swaroop A. 
+          GATD3A, a mitochondrial deglycase with evolutionary origins 
+          from gammaproteobacteria, restricts the formation of advanced 
+          glycation end products. <span class="journal">BMC Biology</span>. 
+          2022;20(1):68. 
+          <a class="doi" href="https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-022-01267-6" target="_blank">
+            doi:10.1186/s12915-022-01267-6
+          </a>
+        </li>
+        <li class="citation">
+          Cleghorn WM, Burrell AL, Giarmarco MM, <span class="author">Brock DC</span>, 
+          Wang Y, Chambers ZS, Du J, Kollman JM, Brockerhoff SE. A highly 
+          conserved zebrafish IMPDH retinal isoform produces the majority of 
+          guanine and forms dynamic protein filaments in photoreceptor cells. 
+          <span class="journal">Journal of Biological Chemistry</span>. 
+          2022;298(1). 
+          <a class="doi" href="https://www.jbc.org/article/S0021-9258(21)01250-3/fulltext" target="_blank">
+            doi:10.1016/j.jbc.2021.101441
+          </a>
         </li>
       </ul>
-      <li><h1 class="year">2021</h1></li>
+
       <li><h1 class="year">2020</h1></li>
+      <ul class="pub-list">
+        <li class="citation">
+          Giarmarco MM, <span class="author">Brock DC</span>, Robbings BM, 
+          Cleghorn WM, Tsantilas KA, Kuch KC, Ge W, Rutter KM, Parker ED, 
+          Hurley JB, Brockerhoff SE. Daily mitochondrial dynamics in cone 
+          photoreceptors. <span class="journal">Proceedings of the National Academy of Sciences</span>. 
+          2020;117(46):28816-28827. 
+          <a class="doi" href="https://www.pnas.org/doi/abs/10.1073/pnas.2007827117" target="_blank">
+            doi:10.1073/pnas.2007827117
+          </a>
+        </li>
+      </ul>
+
       <li><h1 class="year">2019</h1></li>
-      <li><h1 class="year">2018</h1></li>
+      <ul class="pub-list">
+        <li class="citation">
+          Hutto RA, Bisbach CM, Abbas F, <span class="author">Brock DC</span>, 
+          Cleghorn WM, Parker ED, Bauer BH, Ge W, Vinberg F, Hurley JB, 
+          Brockerhoff SE. Increasing Ca2+ in photoreceptor mitochondria alters 
+          metabolites, accelerates photoresponse recovery, and reveals 
+          adaptations to mitochondrial stress. <span class="journal">Cell Death & Differentiation</span>. 
+          2020;27(3):1067-1085. 
+          <a class="doi" href="https://www.nature.com/articles/s41418-019-0398-2" target="_blank">
+            doi:10.1038/s41418-019-0398-2
+          </a>
+        </li>
+      </ul>
     </ul>
-
-
   </main>
+
+  
+  <!-- Footer -->
+  <footer class="footer-container">
+    <div class="footer">
+      &#169;2022 Daniel Brock. All rights reserved. 
+    </div>
+  </footer>
+  
 </body>
 </html>

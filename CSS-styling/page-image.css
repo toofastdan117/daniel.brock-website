@@ -1,0 +1,25 @@
+/* This is the CSS styling for the page images */
+
+.page-image-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.page-image {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.page-intro-text {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 4px 15px;
+  border-radius: 5px;
+}
