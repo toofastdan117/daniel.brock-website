@@ -1,2 +1,105 @@
 /* Website About Page CSS Content Styling */
 
+/* General Styling */
+
+.about-container {
+  padding-left: 7%;
+  padding-right: 7%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.headers {
+  margin-bottom: 15px;
+}
+
+
+
+/* Google Maps */
+
+.google-map-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.google-map-text {
+  width: 50%;
+  padding-right: 3%;
+}
+
+.maps-text {
+  font-size: 18px;
+  line-height: 1.3;
+  margin-bottom: 10px;
+}
+
+.maps-list {
+  padding-left: 22px;
+  line-height: 1.3;
+  font-size: 18px;
+  color: rgb(210, 210, 210);
+}
+
+.google-maps {
+  width: 47%;
+  height: 500px;
+  border: none;
+}
+
+
+
+/* Education */ 
+
+.education-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.education-picture-div {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  width: 50%;
+}
+
+.UW-graduation-picture {
+  width: 93%;
+}
+
+.UW-graduation-text {
+  position: absolute;
+  bottom: 0;
+  right: 25%;
+  left: 18%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 4px 12px;
+}
+
+.education-text-1 {
+  width: 50%;
+  text-align: center;
+}
+
+.education-text-2 {
+  display: inline-block;
+  text-align: left;
+  max-width: 500px;
+}
+
+.education-list {
+  font-size: 18px;
+  line-height: 1.3;
+  margin-left: 20px;
+}
+
+.education-sublist {
+  color: rgb(210, 210, 210);
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
