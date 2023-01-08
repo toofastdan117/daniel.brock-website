@@ -36,11 +36,11 @@
   padding-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
-  transition: box-shadow 0.2s, opacity 0.2s;
+  transition: background-color 0.2s, opacity 0.2s;
 }
 
 .social-media-container:hover {
-  box-shadow: 0 0 10px rgb(80, 30, 255);
+  background-color: rgb(80, 30, 255);
 }
 
 .social-media-container:active {

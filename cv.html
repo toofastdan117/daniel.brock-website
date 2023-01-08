@@ -5,14 +5,82 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>CV</title>
+  <title>Daniel Brock - CV</title>
 
+  <link rel="stylesheet" href="CSS-styling/cv.css">
   <link rel="stylesheet" href="CSS-styling/general.css">
+  <link rel="stylesheet" href="CSS-styling/header.css">
+  <link rel="stylesheet" href="CSS-styling/page-image.css">
+  <link rel="stylesheet" href="CSS-styling/footer.css">
+  <link rel="stylesheet" href="CSS-styling/cv-button.css">
+  <script src="javascript-functions/header-hamburger.js"></script>
 
 </head>
 <body>
-  <h1>CV</h1>
-  <p>Click <a href="">here</a> to download a copy of my CV.</p>
-  <p>Make this pretty later...</p>
+
+  <!-- Header -->
+  <header class="header-main">
+    <nav class="nav-bar">
+
+      <!-- Homepage Title -->
+      <a class="daniel-brock" href="index.html">
+        Daniel Brock
+      </a>
+
+      <!-- Navigation Buttons -->
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a class="header-buttons homepage-page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="header-buttons about-page" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="header-buttons publications-page" href="publications.html">Publications</a>
+        </li>
+        <li class="nav-item">
+          <a class="header-buttons outreach-page" href="outreach.html">Outreach</a>
+        </li>
+        <li class="nav-item">
+          <a class="header-buttons cv-page" href="cv.html">CV</a>
+        </li>
+        <li class="nav-item">
+          <a class="header-buttons contact-page" href="contact.html">Contact</a>
+        </li>
+      </ul>
+
+      <!-- Hamburger Menu -->
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- Page Image -->
+  <main class="page-image-container">
+    <img class="page-image" src="pictures/nature-pictures/CV-Frozen-Franklin-Falls.jpg" alt="CV nature picture">
+    <h1 class="page-intro-text">CV</h1>
+  </main>
+
+
+  <!-- CV Contents -->
+  <main class="CV-container">
+    <h1 class="CV-download">Click <a class="CV-download-text" href="">here</a> to download a copy of my CV.</h1>
+    <div class="CV-picture-div">
+      <img class="CV-picture" src="pictures/ARVO-outdoors-cropped.jpg" alt="CV ARVO Picture">
+      <p class="CV-picture-text">ARVO 2019 in Vancouver!</p>
+    </div>
+  </main>
+
+
+  <!-- Footer -->
+  <footer class="footer-container">
+    <div class="footer">
+      &#169;2023 Daniel Brock. All rights reserved. 
+    </div>
+  </footer>
 </body>
 </html>

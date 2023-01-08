@@ -1,0 +1,30 @@
+/* Website CV Page CSS Content Styling */
+
+.CV-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 7%;
+  padding-right: 7%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.CV-picture-div {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 40%;
+}
+
+.CV-picture {
+  width: 100%;
+  object-fit: contain;
+}
+
+.CV-picture-text {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 4px 12px;
+}

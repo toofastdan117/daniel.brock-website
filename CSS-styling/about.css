@@ -62,21 +62,18 @@
 
 .education-picture-div {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   position: relative;
-  width: 50%;
+  width: 47%;
 }
 
 .UW-graduation-picture {
-  width: 93%;
+  width: 100%;
 }
 
 .UW-graduation-text {
   position: absolute;
   bottom: 0;
-  right: 25%;
-  left: 18%;
-  text-align: center;
   background-color: rgba(0, 0, 0, 0.7);
   padding: 4px 12px;
 }
