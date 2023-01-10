@@ -1,8 +1,39 @@
 /* Website Outreach Page CSS Content Styling */
 
 .outreach-container {
+  display: flex;
+  flex-direction: column;
   padding-left: 7%;
   padding-right: 7%;
   margin: 0 auto;
   padding-top: 20px;
+}
+
+.outreach-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.outreach-text-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.outreach-activity {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.outreach-desc {
+  color: rgb(210, 210, 210);
+  margin-bottom: 10px;
+}
+
+.outreach-picture {
+  width: 40%;
+  object-fit: contain;
 }

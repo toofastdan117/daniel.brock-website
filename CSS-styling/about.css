@@ -58,6 +58,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 35px;
 }
 
 .education-picture-div {
@@ -74,6 +75,7 @@
 .UW-graduation-text {
   position: absolute;
   bottom: 0;
+  font-size: 18px;
   background-color: rgba(0, 0, 0, 0.7);
   padding: 4px 12px;
 }
@@ -99,4 +101,44 @@
   color: rgb(210, 210, 210);
   margin-left: 20px;
   margin-bottom: 15px;
+}
+
+
+
+/* Hobbies */
+
+.hobbies-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hobbies-text-div {
+  width: 47%;
+}
+
+.hobbies-text {
+  color: rgb(210, 210, 210);
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.hobbies-picture-div {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 47%;
+}
+
+.hobbies-picture {
+  width: 100%;
+}
+
+.hobbies-picture-desc {
+  position: absolute;
+  bottom: 0;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 4px 12px;
 }
