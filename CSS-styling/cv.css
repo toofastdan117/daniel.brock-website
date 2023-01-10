@@ -1,20 +1,37 @@
 /* Website CV Page CSS Content Styling */
 
 .CV-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   padding-left: 7%;
   padding-right: 7%;
   margin: 0 auto;
   padding-top: 20px;
 }
 
+.CV-download {
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.CV-download-text {
+  color: rgb(80, 206, 255);
+}
+
+.CV-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pdf {
+  width: 45%;
+}
+
 .CV-picture-div {
   display: flex;
   justify-content: center;
   position: relative;
-  width: 40%;
+  width: 45%;
 }
 
 .CV-picture {
