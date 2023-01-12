@@ -10,6 +10,11 @@
   padding-top: 20px;
 }
 
+.profile-pic {
+  width: 38%;
+  object-fit: contain;
+}
+
 .homepage-text {
   width: 58%;
 }
@@ -21,15 +26,11 @@
   margin-bottom: 20px;
 }
 
-.profile-pic {
-  width: 38%;
-  object-fit: contain;
-}
-
 .social-media-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
   margin-top: 35px;
 }
 
@@ -73,4 +74,34 @@
 
 .social-media-anchors:hover .social-media-hover {
   opacity: 1;
+}
+
+
+
+/* Media queries to scale with screen size */
+
+@media screen and (max-width: 700px) {
+  .homepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+
+  .profile-pic {
+    width: 75%;
+    object-fit: contain;
+    margin-bottom: 20px;
+  }
+
+  .homepage-text {
+    width: 100%;
+  }
+
+  .intro-paragraphs {
+    font-size: 16px;
+  }
 }

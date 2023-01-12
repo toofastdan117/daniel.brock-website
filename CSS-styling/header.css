@@ -85,7 +85,23 @@
   background-color: white;
 }
 
+
+
+/* Media queries to scale with screen size */
+
 @media (max-width: 860px) {
+  .header-main {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .daniel-brock {
+    font-size: 28px;
+  }
+
+
+  /* Hamburger menu */
+
   .hamburger {
     display: block;
   }
