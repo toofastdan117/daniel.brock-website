@@ -13,3 +13,11 @@ body {
   margin: 0;
   padding-top: 80px;
 }
+
+/* Media Queries to scale with screen size */
+
+@media (max-width: 1024px) {
+  body {
+    padding-top: 70px;
+  }
+}

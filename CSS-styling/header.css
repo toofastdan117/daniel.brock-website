@@ -1,28 +1,24 @@
 /* Website Index CSS Header Styling */
 
-.header-main {
-  display: block;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 100;
-  padding-left: 7%;
-  padding-right: 7%;
-  margin: 0 auto;
-  background-color: rgb(30, 30, 30);
-}
+/* Desktop Header Navigation */
 
 .nav-bar {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-left: 7%;
+  padding-right: 7%;
+  z-index: 100;
+  list-style: none;
+  background-color: rgb(30, 30, 30);
   height: 80px;
 }
 
 .daniel-brock {
-  display: inline-block;
   color: white;
   font-size: 40px;
   font-weight: 600;
@@ -39,102 +35,143 @@
 .nav-menu {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
 }
 
-.nav-item {
-  list-style: none;
-  color: white;
-}
-
-.header-buttons {
-  background-color: rgb(30, 30, 30);
+.desktop-buttons {
   color: rgb(210, 210, 210);
   font-size: 18px;
   text-decoration: none;
   border: none;
+  border-radius: 3px;
   padding: 4px 8px;
   margin: 0 5px;
-  border-radius: 3px;
   cursor: pointer;
   transition: background-color 0.2s, color 0.2s, opacity 0.2s;
 }
 
-.header-buttons:hover {
+.desktop-buttons:hover {
   background-color: rgb(80, 30, 255);
   color: white
 }
 
-.header-buttons:active {
+.desktop-buttons:active {
   opacity: 0.6;
 }
 
+
+
+/* Hamburger menu */
+
 .hamburger {
-  display: none;
+  display: block;
+  position: relative;
+  width: 35px;
   cursor: pointer;
+
+  appearance: none;
+  background: none;
+  outline: none;
+  border: none;
 }
 
-.bar {
+.hamburger .bar, .hamburger::after, .hamburger::before {
+  content: "";
   display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  width: 100%;
+  height: 4px;
   background-color: white;
+  margin: 6px 0px;
+  transition: 0.4s;
+}
+
+.hamburger.is-active .bar {
+  opacity: 0;
+}
+
+.hamburger.is-active::before {
+  transform: translate(-2px, 8px) rotate(-45deg) ;
+}
+
+.hamburger.is-active::after {
+  transform: translate(-2px, -12px) rotate(45deg) ;
+}
+
+
+
+/* Mobile Navigation Menu */
+
+.mobile-nav {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  min-height: 100vh;
+  z-index: 99;
+  background-color: rgb(10, 10, 10);
+  padding-top: 90px;
+  transition: 0.4s;
+}
+
+.mobile-nav.is-active {
+  left: 0;
+}
+
+.mobile-buttons {
+  display: block;
+  width: 100%;
+  max-width: 180px;
+  margin: 0 auto 16px;
+  text-align: center;
+  padding: 12px 16px;
+  background-color: rgba(80, 30, 255, 0.2);
+  color: rgb(210, 210, 210);
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s, opacity 0.2s;
+}
+
+.mobile-buttons:hover {
+  background-color: rgba(80, 30, 255, 0.7);
+  color: white;
+}
+
+.mobile-buttons:active {
+  opacity: 0.6;
 }
 
 
 
 /* Media queries to scale with screen size */
 
-@media (max-width: 860px) {
-  .header-main {
+@media (max-width: 1024px) {
+  .nav-bar {
     padding-left: 3%;
     padding-right: 3%;
+    height: 70px;
   }
 
   .daniel-brock {
-    font-size: 28px;
+    font-size: 30px;
   }
 
+  .desktop-buttons {
+    font-size: 16px;
+  }
+}
 
-  /* Hamburger menu */
-
+@media (min-width: 768px) {
+  .mobile-nav {
+    display: none;
+  }
+  
   .hamburger {
-    display: block;
+    display: none;
   }
+}
 
-  .hamburger:active .bar:nth-child(2) {
-    opacity: 0;
-  }
-
-  .hamburger:active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
-
-  .hamburger:active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-  }
-
-  .nav-menu {
-    position: fixed;
-    left: -100%;
-    top: 80px;
-    gap: 0;
-    flex-direction: column;
-    background-color: rgb(30, 30, 30);
-    width: 100%;
-    text-align: center;
-    transition: 0.2s;
-  }
-
-  .nav-item {
-    margin: 16px 0;
-  }
-
-  .nav-menu:active {
-    left: 0;
+@media (max-width: 768px) {
+  .desktop-buttons {
+    display: none;
   }
 }

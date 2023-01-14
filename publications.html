@@ -14,50 +14,43 @@
   <link rel="stylesheet" href="CSS-styling/footer.css">
   <link rel="stylesheet" href="CSS-styling/publications-button.css">
   <link rel="shortcut icon" href="pictures/social-media-logos/DB-icon.ico">
-  <script src="javascript-functions/header-hamburger.js"></script>
 
 </head>
 <body>
 
   <!-- Header -->
-  <header class="header-main">
-    <nav class="nav-bar">
-
+  <header>
+    <!-- Header for Desktop -->
+    <div class="nav-bar">
       <!-- Homepage Title -->
-      <a class="daniel-brock" href="index.html">
-        Daniel Brock
-      </a>
+      <a class="daniel-brock" href="index.html">Daniel Brock</a>
 
       <!-- Navigation Buttons -->
-      <ul class="nav-menu">
-        <li class="nav-item">
-          <a class="header-buttons homepage-page" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="header-buttons about-page" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="header-buttons publications-page" href="publications.html">Publications</a>
-        </li>
-        <li class="nav-item">
-          <a class="header-buttons outreach-page" href="outreach.html">Outreach</a>
-        </li>
-        <li class="nav-item">
-          <a class="header-buttons cv-page" href="cv.html">CV</a>
-        </li>
-        <li class="nav-item">
-          <a class="header-buttons contact-page" href="contact.html">Contact</a>
-        </li>
-      </ul>
+      <nav class="nav-menu">
+        <a class="desktop-buttons homepage-page" href="index.html">Home</a>
+        <a class="desktop-buttons about-page" href="about.html">About</a>
+        <a class="desktop-buttons publications-page" href="publications.html">Publications</a>
+        <a class="desktop-buttons outreach-page" href="outreach.html">Outreach</a>
+        <a class="desktop-buttons cv-page" href="cv.html">CV</a>
+        <a class="desktop-buttons contact-page" href="contact.html">Contact</a>
+      </nav>
+      <button class="hamburger">
+        <div class="bar"></div>
+      </button>
+    </div>
 
-      <!-- Hamburger Menu -->
-      <div class="hamburger">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </div>
+    <!-- Header for Mobile -->
+    <nav class="mobile-nav">
+      <a class="mobile-buttons homepage-page" href="index.html">Home</a>
+      <a class="mobile-buttons about-page" href="about.html">About</a>
+      <a class="mobile-buttons publications-page" href="publications.html">Publications</a>
+      <a class="mobile-buttons outreach-page" href="outreach.html">Outreach</a>
+      <a class="mobile-buttons cv-page" href="cv.html">CV</a>
+      <a class="mobile-buttons contact-page" href="contact.html">Contact</a>
     </nav>
   </header>
+  <!-- JS for Mobile Nav Menu -->
+  <script src="javascript-functions/header-hamburger.js"></script>
 
 
   <!-- Page Image -->
