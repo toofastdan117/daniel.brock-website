@@ -80,6 +80,13 @@
 
 /* Media queries to scale with screen size */
 
+@media (max-width: 1024px) {
+  .homepage-container {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+
 @media (max-width: 768px) {
   .homepage-container {
     display: flex;
