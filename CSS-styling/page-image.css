@@ -28,7 +28,7 @@
 
 /* Media queries to scale with screen size */
 
-@media screen and (max-width: 700px) {
+@media (max-width: 1024px) {
   .page-image-container {
     margin-bottom: 5px;
   }

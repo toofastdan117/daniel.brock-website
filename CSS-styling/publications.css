@@ -76,3 +76,30 @@
 .doi {
   color: rgb(210, 210, 210);
 }
+
+
+
+/* Media queries to scale with screen size */
+
+@media (max-width: 1024px) {
+  .publications-container {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .citations-header {
+    font-size: 28px;
+  }
+
+  .citation-button {
+    font-size: 16px;
+  }
+
+  .year {
+    font-size: 28px;
+  }
+
+  .citation {
+    font-size: 16px;
+  }
+}

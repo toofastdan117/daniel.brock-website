@@ -29,6 +29,7 @@
 }
 
 .outreach-desc {
+  font-size: 18px;
   color: rgb(210, 210, 210);
   margin-bottom: 10px;
 }
@@ -36,4 +37,41 @@
 .outreach-picture {
   width: 40%;
   object-fit: contain;
+}
+
+
+
+/* Media queries to scale with screen size */
+
+@media (max-width: 1024px) {
+  .outreach-container {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .outreach-activity {
+    font-size: 28px;
+  }
+
+  .outreach-desc {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .outreach-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .outreach-text-div {
+    width: 100%;
+  }
+
+  .outreach-picture {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
 }
