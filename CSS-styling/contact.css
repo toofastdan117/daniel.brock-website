@@ -52,6 +52,10 @@
   object-fit: contain;
 }
 
+.social-media-text {
+  text-align: center;
+}
+
 .social-media-names {
   color: white;
   font-size: 18px;
@@ -68,4 +72,57 @@
 
 .empty-links {
   border: none;
+}
+
+
+
+/* Media queries to scale with screen size */
+
+@media (max-width: 1024px) {
+  .contact-container {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .contact-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    column-gap: 0;
+  }
+
+  .social-media-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid gray;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .social-media-logos {
+    width: 50px;
+    object-fit: contain;
+    margin-right: 10px;
+  }
+
+  .social-media-text {
+    text-align: left;
+  }
+
+  .social-media-names {
+    margin-bottom: 6px;
+  }
+
+  .empty-links {
+    display: none;
+  }
 }
