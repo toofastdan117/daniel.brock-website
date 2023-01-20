@@ -31,5 +31,3 @@ you have any questions/feedback :thumbsup:
 - [Instagram](https://www.instagram.com/toofast_dan/)
 - [Strava](https://www.strava.com/athletes/48542978)
 - [Google Scholar](https://scholar.google.com/citations?user=ajhFC98AAAAJ&hl=en)
-
-<style>h1,h2,h3,h4 { border-bottom: 0; } </style>
