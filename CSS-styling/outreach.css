@@ -34,6 +34,10 @@
   margin-bottom: 10px;
 }
 
+.outreach-link {
+  color: rgb(210, 210, 210);
+}
+
 .outreach-picture {
   width: 40%;
   object-fit: contain;

@@ -1,3 +1,4 @@
+// For opening and closing the mobile nav menu
 window.onload = function () {
 
   const menu_button = document.querySelector('.hamburger');
