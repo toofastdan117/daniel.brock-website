@@ -77,6 +77,10 @@
   color: rgb(210, 210, 210);
 }
 
+.footnotes {
+  margin-top: 2px;
+}
+
 
 
 /* Media queries to scale with screen size */
