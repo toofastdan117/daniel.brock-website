@@ -38,6 +38,15 @@
   color: rgb(210, 210, 210);
 }
 
+.health-fair-list {
+  color: rgb(210, 210, 210);
+  margin-left: 25px;
+}
+
+.health-fair-list li {
+  margin-bottom: 4px;
+}
+
 .outreach-picture {
   width: 40%;
   object-fit: contain;

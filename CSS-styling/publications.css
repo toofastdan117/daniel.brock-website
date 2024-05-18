@@ -65,6 +65,10 @@
   margin-bottom: 10px;
 }
 
+.shift {
+  margin-left: 25px;
+}
+
 .author {
   font-weight: 700;
   text-decoration: underline;
