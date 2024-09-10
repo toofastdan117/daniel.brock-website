@@ -18,10 +18,9 @@ and hobbies. Feedback on how to improve this website is much appreciated!
 
 ## What I'm working on :test_tube: :stethoscope:
 
-I'm currently working on finishing my preclinical years of medical school,
-exploring potential rotation labs for my PhD, and learning little things
-about web development and machine learning. Feel free to reach out to me if
-you have any questions/feedback :thumbsup:
+I'm currently in in my first year of graduate school, exploring potential rotation 
+labs for my PhD, and learning about web development and machine learning. Feel free 
+to reach out to me if you have any questions/feedback :thumbsup:
 
 ## Find me elsewhere
 
